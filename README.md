@@ -26,3 +26,9 @@ El archivo `model.h5` ya contiene los pesos y arquitectura, por lo que no se req
 - PIL (Python Imaging Library)
 - NumPy
 - MobileNetV2
+
+<img width="1880" height="933" alt="DA-perro" src="https://github.com/user-attachments/assets/2b7407a5-1d63-4ecb-970e-b94332f62cb1" />
+
+<img width="1880" height="931" alt="DA-mariposa" src="https://github.com/user-attachments/assets/ad1a0c39-1413-40bd-9d1a-88de2136d65a" />
+
+
