@@ -11,7 +11,7 @@ st.set_page_config(page_title="Reconocimiento de Animales", layout="centered")
 st.title("🧠 Reconocimiento de Animales")
 st.write("Sube una imagen y te diremos qué animal contiene.")
 
-# Nombres de clase según tu dataset
+# Nombres de clase según dataset
 class_names = [
     "perro", "caballo", "elefante", "mariposa", "gallina",
     "gato", "vaca", "oveja", "araña", "ardilla"
@@ -22,7 +22,7 @@ emoji_labels = {
     "gato": "🐱", "vaca": "🐮", "oveja": "🐑", "araña": "🕷️", "ardilla": "🐿️"
 }
 
-# Cargar imagen
+# Cargar imagen a analizar
 uploaded_file = st.file_uploader("Selecciona una imagen...", type=["jpg", "jpeg", "png"])
 
 if uploaded_file:
